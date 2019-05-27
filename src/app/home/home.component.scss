@@ -1,0 +1,70 @@
+$first-color: #ec3237;
+$second-color: white;
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background: transparent;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  z-index: 999999;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.cover {
+  padding: 170px 0px;
+  min-height: 550px;
+  background: transparent;
+}
+section,
+footer {
+  padding: 70px 0px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+#Team {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.cover_title {
+  font-weight: 700;
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 0px 5px 10px #af2424;
+  margin-bottom: 0px;
+}
+.cover_subtitle {
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.cover_action_text {
+  color: #af2424;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.btn_main {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 25px;
+
+  margin: 15px 0px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.btn_main:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}

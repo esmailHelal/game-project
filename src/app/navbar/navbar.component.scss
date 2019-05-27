@@ -1,0 +1,54 @@
+$first-color: #ec3237;
+$second-color: white;
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  background: transparent !important;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  z-index: 999999;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+ul li {
+  padding-right: 50px;
+}
+a {
+  color: $second-color;
+  text-decoration: none;
+}
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.stick_header {
+  background-color: #ec3237 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  color: black;
+}
+.navbar-brand:hover {
+  color: gray;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+navbar-light .navbar-toggler {
+  background-color: #c42d32;
+  border: 0px;
+}

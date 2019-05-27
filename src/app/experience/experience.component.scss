@@ -1,0 +1,34 @@
+.brand_background {
+  background-color: #ec3237;
+  color: #fff;
+}
+.info_title {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 700;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+}
+.btn_main {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  padding: 8px 25px;
+
+  margin: 15px 0px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.btn_main:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}

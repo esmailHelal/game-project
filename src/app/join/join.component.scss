@@ -1,0 +1,22 @@
+.team {
+  margin-left: 100px;
+  margin-top: 40;
+  margin-bottom: 30px;
+}
+.info_title {
+  font-size: 3em;
+  color: #c42d32;
+  font-weight: 700;
+}
+h3 {
+  font-size: 24px;
+}
+.btn_inverse {
+  background-color: transparent;
+  border: 1px solid #af2424;
+  color: #af2424;
+}
+.btn_inverse:hover {
+  background-color: rgba(175, 36, 36, 0.1);
+  color: #af2424;
+}
